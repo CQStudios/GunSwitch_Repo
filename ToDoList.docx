@@ -1,0 +1,27 @@
+Switch Game Dev TODO List
+
+Hey Edward, so I have some experimental changes done to the unity project. I added prefabs to it with corresponding scripts for the object types. I have some things to add to it for sure next time I commit to the repository.
+
+- Change Tank collider type to BoxCollider2D and resize it relative to the parent gameobject. We want it to be smaller than the tank image, but preserve collision interaction on the bottom center of the tank. The center tracks should always lie parallel to the terrain surface.
+
+- Use the GameControllingScript to pass inputs to the testing tank object.
+
+- Use the GameControllingScript to create GUI text based on the testing tank's stats.
+
+
+Here are things I have to figure out.
+
+- Move the test tank from it's controller.
+
+- Draw GUI sprites
+
+- Fire a bullet
+
+- Apply forces to bullets and recoil to the tank.
+
+- prevent tanks from rolling onto their sides/head
+
+		(- Lucas Phillips)
+
+
+If you think of things that should be done, list them below in a different color.
